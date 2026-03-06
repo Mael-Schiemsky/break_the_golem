@@ -29,7 +29,7 @@
 [[35mLOG[0m]: [31mEXIT [0m of init method of MyView class
 [[35mLOG[0m]: [34mENTER[0m in theHeroEquipsSword method of MyView class
 [[35mLOG[0m]: [34mENTER[0m in theHeroEquipsWeapon method of MyController class
-[[35mLOG[0m]: [31mEXIT [0m of theHeroEquipsWeapon method of MyController class
+[[35mLOG[0m]: [31mEXIT [0m of theHeroEquipsWeapon method of MyController class AFTER the exit of theHeroEquipsSword method of MyController class
 [[35mLOG[0m]: [34mENTER[0m in theHeroEquipsSword method of MyController class
 [[35mLOG[0m]: [34mENTER[0m in Weapon constructor
 [[35mLOG[0m]: [31mEXIT [0m of Weapon constructor
@@ -43,13 +43,14 @@
 [[35mLOG[0m]: [34mENTER[0m in theHeroAttacks method of MyView class
 [[35mLOG[0m]: [34mENTER[0m in theHeroAttacks method of MyController class
 [[35mLOG[0m]: [34mENTER[0m in attack method of Hero class
+[[35mLOG[0m]: [31mEXIT [0m of attack method of Hero class
 [[35mLOG[0m]: [34mENTER[0m in getDamage method of Weapon class
 [[35mLOG[0m]: [31mEXIT [0m of getDamage method of Weapon class
 [[35mLOG[0m]: [34mENTER[0m in takeDamage method of Golem class
 [[35mLOG[0m]: [34mENTER[0m in takeDamage method of Monster class
 [[35mLOG[0m]: [31mEXIT [0m of takeDamage method of Monster class
 [[35mLOG[0m]: [31mEXIT [0m of takeDamage method of Golem class
-[[35mLOG[0m]: [31mEXIT [0m of theHeroAttacks method of MyController class
+[[35mLOG[0m]: [31mEXIT [0m of theHeroAttacks method of MyController class AFTER the exit of getHealth method of Golem class
 [[35mLOG[0m]: [34mENTER[0m in getHealth method of Character class
 [[35mLOG[0m]: [31mEXIT [0m of getHealth method of Character class
 [[35mLOG[0m]: [34mENTER[0m in sendMessage method of MyView class
@@ -62,7 +63,7 @@
 [[35mLOG[0m]: [31mEXIT [0m of attack method of Monster class
 [[35mLOG[0m]: [34mENTER[0m in takeDamage method of Hero class
 [[35mLOG[0m]: [31mEXIT [0m of takeDamage method of Hero class
-[[35mLOG[0m]: [31mEXIT [0m of theGolemAttacks method of MyController class
+[[35mLOG[0m]: [31mEXIT [0m of theGolemAttacks method of MyController class AFTER the exit of getHealth method of Hero class
 [[35mLOG[0m]: [34mENTER[0m in getHealth method of Character class
 [[35mLOG[0m]: [31mEXIT [0m of getHealth method of Character class
 [[35mLOG[0m]: [34mENTER[0m in sendMessage method of MyView class
@@ -79,13 +80,14 @@
 [[35mLOG[0m]: [34mENTER[0m in theHeroAttacks method of MyView class
 [[35mLOG[0m]: [34mENTER[0m in theHeroAttacks method of MyController class
 [[35mLOG[0m]: [34mENTER[0m in attack method of Hero class
+[[35mLOG[0m]: [31mEXIT [0m of attack method of Hero class
 [[35mLOG[0m]: [34mENTER[0m in getDamage method of Weapon class
 [[35mLOG[0m]: [31mEXIT [0m of getDamage method of Weapon class
 [[35mLOG[0m]: [34mENTER[0m in takeDamage method of Golem class
 [[35mLOG[0m]: [34mENTER[0m in takeDamage method of Monster class
 [[35mLOG[0m]: [31mEXIT [0m of takeDamage method of Monster class
 [[35mLOG[0m]: [31mEXIT [0m of takeDamage method of Golem class
-[[35mLOG[0m]: [31mEXIT [0m of theHeroAttacks method of MyController class
+[[35mLOG[0m]: [31mEXIT [0m of theHeroAttacks method of MyController class AFTER the exit of getHealth method of Golem class
 [[35mLOG[0m]: [34mENTER[0m in getHealth method of Character class
 [[35mLOG[0m]: [31mEXIT [0m of getHealth method of Character class
 [[35mLOG[0m]: [34mENTER[0m in sendMessage method of MyView class
@@ -98,7 +100,7 @@
 [[35mLOG[0m]: [31mEXIT [0m of attack method of Monster class
 [[35mLOG[0m]: [34mENTER[0m in takeDamage method of Hero class
 [[35mLOG[0m]: [31mEXIT [0m of takeDamage method of Hero class
-[[35mLOG[0m]: [31mEXIT [0m of theGolemAttacks method of MyController class
+[[35mLOG[0m]: [31mEXIT [0m of theGolemAttacks method of MyController class AFTER the exit of getHealth method of Hero class
 [[35mLOG[0m]: [34mENTER[0m in getHealth method of Character class
 [[35mLOG[0m]: [31mEXIT [0m of getHealth method of Character class
 [[35mLOG[0m]: [34mENTER[0m in sendMessage method of MyView class
@@ -114,7 +116,7 @@
 [[35mLOG[0m]: [31mEXIT [0m of endTurn method of MyView class
 [[35mLOG[0m]: [34mENTER[0m in theHeroEquipsHaxe method of MyView class
 [[35mLOG[0m]: [34mENTER[0m in theHeroEquipsWeapon method of MyController class
-[[35mLOG[0m]: [31mEXIT [0m of theHeroEquipsWeapon method of MyController class
+[[35mLOG[0m]: [31mEXIT [0m of theHeroEquipsWeapon method of MyController class AFTER the exit of theHeroEquipsHaxe method of MyController class
 [[35mLOG[0m]: [34mENTER[0m in theHeroEquipsHaxe method of MyController class
 [[35mLOG[0m]: [34mENTER[0m in Weapon constructor
 [[35mLOG[0m]: [31mEXIT [0m of Weapon constructor
@@ -128,13 +130,14 @@
 [[35mLOG[0m]: [34mENTER[0m in theHeroAttacks method of MyView class
 [[35mLOG[0m]: [34mENTER[0m in theHeroAttacks method of MyController class
 [[35mLOG[0m]: [34mENTER[0m in attack method of Hero class
+[[35mLOG[0m]: [31mEXIT [0m of attack method of Hero class
 [[35mLOG[0m]: [34mENTER[0m in getDamage method of Weapon class
 [[35mLOG[0m]: [31mEXIT [0m of getDamage method of Weapon class
 [[35mLOG[0m]: [34mENTER[0m in takeDamage method of Golem class
 [[35mLOG[0m]: [34mENTER[0m in takeDamage method of Monster class
 [[35mLOG[0m]: [31mEXIT [0m of takeDamage method of Monster class
 [[35mLOG[0m]: [31mEXIT [0m of takeDamage method of Golem class
-[[35mLOG[0m]: [31mEXIT [0m of theHeroAttacks method of MyController class
+[[35mLOG[0m]: [31mEXIT [0m of theHeroAttacks method of MyController class AFTER the exit of getHealth method of Golem class
 [[35mLOG[0m]: [34mENTER[0m in getHealth method of Character class
 [[35mLOG[0m]: [31mEXIT [0m of getHealth method of Character class
 [[35mLOG[0m]: [34mENTER[0m in sendMessage method of MyView class
@@ -142,9 +145,9 @@
 [[35mLOG[0m]: [31mEXIT [0m of sendMessage method of MyView class
 [[35mLOG[0m]: [34mENTER[0m in victory method of MyView class
 [[35mLOG[0m]: [34mENTER[0m in getHeroName method of MyController class
-[[35mLOG[0m]: [31mEXIT [0m of getHeroName method of MyController class
+[[35mLOG[0m]: [31mEXIT [0m of getHeroName method of MyController class AFTER the exit of getName method of Hero class
 [[35mLOG[0m]: [34mENTER[0m in getName method of Hero class
-[[35mLOG[0m]: [31mEXIT [0m of getName method of Hero class
+[[35mLOG[0m]: [31mEXIT [0m of getName method of Hero class AFTER the exit of getName method of Character class
 [[35mLOG[0m]: [34mENTER[0m in getName method of Character class
 [[35mLOG[0m]: [31mEXIT [0m of getName method of Character class
 [[35mLOG[0m]: [34mENTER[0m in sendMessage method of MyView class
