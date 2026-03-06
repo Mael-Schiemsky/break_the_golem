@@ -7,18 +7,27 @@ import org.example.Model.character.Golem;
 import org.example.controller.MyController;
 
 public class App {
-
+    
     // This method initializes the view and controller, and sets up the relationships between them.
     public MyController init() {
+                                        Logs.sendLog(0, "App init method");
         MyController controller = new MyController(new Golem());
+                                        Logs.sendLog(1, "App init method");
         return controller;
     }
 
     public void sendMessage(String message) {
+                                        Logs.sendLog(0, "App sendMessage method");
         System.out.println("[" + "\u001B[32m" + "APP" + "\u001B[0m" + "]: " + message);
+                                        Logs.sendLog(1, "App sendMessage method");
     }
     
     public static void main(String[] args) {
+        if(args.length > 0) {
+            Logs.enable();
+        }
+                                        Logs.sendLog(0, "App main method");
+
         App app = new App();
         MyController controller = app.init();
 
@@ -34,5 +43,7 @@ public class App {
         app.sendMessage("The Hero deal a huge blow to the Golem !");
 
         app.sendMessage(controller.getHeroName() + ", i killed this Golem !!!");
+
+                                        Logs.sendLog(1, "App main method");
     }
 }
