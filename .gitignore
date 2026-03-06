@@ -1,0 +1,55 @@
+# Gradle
+.gradle/
+build/
+.gradle
+build
+
+# Kotlin plugin data
+.kotlin
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Misc
+out/
+
+# Test reports
+/test-results/
+/test-output/
+
+# Generated files
+*.tmp
+*.swp
+*.bak
+
+# Local env
+.env
+
+# Dependency caches
+.gradle/
+
+# Gradle wrapper
+!gradle/wrapper/gradle-wrapper.properties
+**/gradle-wrapper.jar
+
+# Node modules
+node_modules/
