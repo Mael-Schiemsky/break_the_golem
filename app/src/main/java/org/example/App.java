@@ -4,7 +4,6 @@
 package org.example;
 
 import org.example.Model.character.Golem;
-import org.example.Model.character.Hero;
 import org.example.controller.MyController;
 import org.example.view.MyView;
 
@@ -13,7 +12,7 @@ public class App {
     // This method initializes the view and controller, and sets up the relationships between them.
     public MyView init() {
         MyView view = new MyView();
-        MyController controller = new MyController(new Golem(), new Hero("Arthur", 50, "Dragrice"));
+        MyController controller = new MyController(new Golem());
 
         view.setController(controller);
         controller.setView(view);
@@ -27,14 +26,9 @@ public class App {
 
         view.init();
 
+        view.aNewHeroCome();
         view.theHeroEquipsSword();
         view.theHeroAttacks();
-        view.endTurn();
-
-        view.theHeroAttacks();
-        view.endTurn();
-        
-        view.theHeroEquipsHaxe();
-        view.theHeroAttacks();
+        view.victory();
     }
 }

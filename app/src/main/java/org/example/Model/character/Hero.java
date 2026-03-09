@@ -11,28 +11,16 @@ public class Hero extends Character {
         this.country = country;
     }
 
-    public String getName() {
-        return "I'm the hero of " + country + " and my name is " + super.getName();
-    }
-
     public Weapon getWeapon() {
         return weapon;
     }
-
+    
     public void equipWeapon(Weapon weapon) {
         this.weapon = weapon;
     }
 
     @Override
-    public void takeDamage(int damage) {
-        health -= damage;
-    }
-
-    @Override
-    public int attack() {
-        if (weapon != null) {
-            return weapon.getDamage();
-        }
-        return 0;
+    public String getName() {
+        return "I'm the hero of " + country + " and my name is " + super.getName();
     }
 }

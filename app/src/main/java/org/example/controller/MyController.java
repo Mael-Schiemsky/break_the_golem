@@ -10,51 +10,36 @@ public class MyController {
     private Golem golem;
     private Hero hero;
 
-    public MyController(Golem golem, Hero hero) {
+    public MyController(Golem golem) {
         this.golem = golem;
-        this.hero = hero;
     }
 
     public void setView(MyView view) {
         this.view = view;
     }
 
+    public void setHero() {
+        this.hero = newHero();
+    }
+
+    private Hero newHero() {
+        return new Hero("Arthur", 50, "Dragrice");
+    }
+
+    public void theHeroEquipsSword() {
+        hero.equipWeapon(new Weapon("Sword", 4));
+    }
+
+    public void theHeroAttacks() {
+        view.sendMessage(golem.getName());
+
+        golem.takeDamage(5);
+        golem.takeDamage();
+
+        view.sendMessage("" + golem.getHealth());
+    }
+
     public String getHeroName() {
         return hero.getName();
-    }
-
-    public int theHeroEquipsWeapon(String name) {
-        if(name.equals("sword")){
-            return theHeroEquipsSword();
-        } else {
-            return theHeroEquipsHaxe();
-        }
-    }
-
-    private int theHeroEquipsSword() {
-        hero.equipWeapon(new Weapon("Sword", 4));
-        return 4;
-    }
-
-    private int theHeroEquipsHaxe() {
-        hero.equipWeapon(new Weapon("Haxe", 5));
-        return 5;
-    }
-
-    public int theHeroAttacks() {
-        int damage = hero.attack();
-        golem.takeDamage(damage);
-        return golem.getHealth();
-    }
-
-    public int theGolemAttacks() {
-        int damage = golem.attack();
-        hero.takeDamage(damage);
-        return hero.getHealth();
-    }
-
-    public void theGolemRegenerates() {
-        golem.regenerate();
-        view.sendMessage("The Golem regenerates " + 1 + " health !");
     }
 }

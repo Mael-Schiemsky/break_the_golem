@@ -16,8 +16,4 @@ public abstract class Character {
     public String getName() {
         return name;
     }
-
-    public abstract void takeDamage(int damage);
-
-    public abstract int attack();
 }
