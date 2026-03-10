@@ -1,158 +1,61 @@
-[[35mLOG[0m]: [34mENTER[0m in main method of App class
-[[35mLOG[0m]: [34mENTER[0m in init method of App class
-[[35mLOG[0m]: [34mENTER[0m in MyView constructor
-[[35mLOG[0m]: [31mEXIT [0m of MyView constructor
-[[35mLOG[0m]: [34mENTER[0m in Character constructor
-[[35mLOG[0m]: [31mEXIT [0m of Character constructor
-[[35mLOG[0m]: [34mENTER[0m in Monster constructor BEFORE the enter of super constructor
-[[35mLOG[0m]: [31mEXIT [0m of Monster constructor
-[[35mLOG[0m]: [34mENTER[0m in Golem constructor BEFORE the enter of super constructor
-[[35mLOG[0m]: [31mEXIT [0m in Golem constructor
-[[35mLOG[0m]: [34mENTER[0m in Character constructor
-[[35mLOG[0m]: [31mEXIT [0m of Character constructor
-[[35mLOG[0m]: [34mENTER[0m in Hero constructor BEFORE the enter of super constructor
-[[35mLOG[0m]: [31mEXIT [0m of Hero constructor
-[[35mLOG[0m]: [34mENTER[0m in MyController constructor
-[[35mLOG[0m]: [31mEXIT [0m of MyController constructor
-[[35mLOG[0m]: [34mENTER[0m in setController method of MyView class
-[[35mLOG[0m]: [31mEXIT [0m of setController method of MyView class
-[[35mLOG[0m]: [34mENTER[0m in setView method of MyController class
-[[35mLOG[0m]: [31mEXIT [0m of setView method of MyController class
-[[35mLOG[0m]: [31mEXIT [0m of init method of App class
-[[35mLOG[0m]: [34mENTER[0m in init method of MyView class
-[[35mLOG[0m]: [34mENTER[0m in sendMessage method of MyView class
-[[32mAPP[0m]: An hero found a very bad golem around a forest
-[[35mLOG[0m]: [31mEXIT [0m of sendMessage method of MyView class
-[[35mLOG[0m]: [34mENTER[0m in sendMessage method of MyView class
-[[32mAPP[0m]: It's time to break it !
-[[35mLOG[0m]: [31mEXIT [0m of sendMessage method of MyView class
-[[35mLOG[0m]: [31mEXIT [0m of init method of MyView class
-[[35mLOG[0m]: [34mENTER[0m in theHeroEquipsSword method of MyView class
-[[35mLOG[0m]: [34mENTER[0m in theHeroEquipsWeapon method of MyController class
-[[35mLOG[0m]: [31mEXIT [0m of theHeroEquipsWeapon method of MyController class AFTER the exit of theHeroEquipsSword method of MyController class
-[[35mLOG[0m]: [34mENTER[0m in theHeroEquipsSword method of MyController class
-[[35mLOG[0m]: [34mENTER[0m in Weapon constructor
-[[35mLOG[0m]: [31mEXIT [0m of Weapon constructor
-[[35mLOG[0m]: [34mENTER[0m in equipWeapon method of Hero class
-[[35mLOG[0m]: [31mEXIT [0m of equipWeapon method of Hero class
-[[35mLOG[0m]: [31mEXIT [0m of theHeroEquipsSword method of MyController class
-[[35mLOG[0m]: [34mENTER[0m in sendMessage method of MyView class
-[[32mAPP[0m]: The Hero equip a sword wich deal 4 damages !
-[[35mLOG[0m]: [31mEXIT [0m of sendMessage method of MyView class
-[[35mLOG[0m]: [31mEXIT [0m of theHeroEquipsSword method of MyView class
-[[35mLOG[0m]: [34mENTER[0m in theHeroAttacks method of MyView class
-[[35mLOG[0m]: [34mENTER[0m in theHeroAttacks method of MyController class
-[[35mLOG[0m]: [34mENTER[0m in attack method of Hero class
-[[35mLOG[0m]: [31mEXIT [0m of attack method of Hero class
-[[35mLOG[0m]: [34mENTER[0m in getDamage method of Weapon class
-[[35mLOG[0m]: [31mEXIT [0m of getDamage method of Weapon class
-[[35mLOG[0m]: [34mENTER[0m in takeDamage method of Golem class
-[[35mLOG[0m]: [34mENTER[0m in takeDamage method of Monster class
-[[35mLOG[0m]: [31mEXIT [0m of takeDamage method of Monster class
-[[35mLOG[0m]: [31mEXIT [0m of takeDamage method of Golem class
-[[35mLOG[0m]: [31mEXIT [0m of theHeroAttacks method of MyController class AFTER the exit of getHealth method of Golem class
-[[35mLOG[0m]: [34mENTER[0m in getHealth method of Character class
-[[35mLOG[0m]: [31mEXIT [0m of getHealth method of Character class
-[[35mLOG[0m]: [34mENTER[0m in sendMessage method of MyView class
-[[32mAPP[0m]: The Hero attacks the Golem, and reduce it's health to 3 !
-[[35mLOG[0m]: [31mEXIT [0m of sendMessage method of MyView class
-[[35mLOG[0m]: [31mEXIT [0m of theHeroAttacks method of MyView class
-[[35mLOG[0m]: [34mENTER[0m in endTurn method of MyView class
-[[35mLOG[0m]: [34mENTER[0m in theGolemAttacks method of MyController class
-[[35mLOG[0m]: [34mENTER[0m in attack method of Monster class
-[[35mLOG[0m]: [31mEXIT [0m of attack method of Monster class
-[[35mLOG[0m]: [34mENTER[0m in takeDamage method of Hero class
-[[35mLOG[0m]: [31mEXIT [0m of takeDamage method of Hero class
-[[35mLOG[0m]: [31mEXIT [0m of theGolemAttacks method of MyController class AFTER the exit of getHealth method of Hero class
-[[35mLOG[0m]: [34mENTER[0m in getHealth method of Character class
-[[35mLOG[0m]: [31mEXIT [0m of getHealth method of Character class
-[[35mLOG[0m]: [34mENTER[0m in sendMessage method of MyView class
-[[32mAPP[0m]: The Golem attacks the Hero, and reduce he's health to 44 !
-[[35mLOG[0m]: [31mEXIT [0m of sendMessage method of MyView class
-[[35mLOG[0m]: [34mENTER[0m in theGolemRegenerates method of MyController class
-[[35mLOG[0m]: [34mENTER[0m in regenerate method of Golem class
-[[35mLOG[0m]: [31mEXIT [0m of regenerate method of Golem class
-[[35mLOG[0m]: [34mENTER[0m in sendMessage method of MyView class
-[[32mAPP[0m]: The Golem regenerates 1 health !
-[[35mLOG[0m]: [31mEXIT [0m of sendMessage method of MyView class
-[[35mLOG[0m]: [31mEXIT [0m of theGolemRegenerates method of MyController class
-[[35mLOG[0m]: [31mEXIT [0m of endTurn method of MyView class
-[[35mLOG[0m]: [34mENTER[0m in theHeroAttacks method of MyView class
-[[35mLOG[0m]: [34mENTER[0m in theHeroAttacks method of MyController class
-[[35mLOG[0m]: [34mENTER[0m in attack method of Hero class
-[[35mLOG[0m]: [31mEXIT [0m of attack method of Hero class
-[[35mLOG[0m]: [34mENTER[0m in getDamage method of Weapon class
-[[35mLOG[0m]: [31mEXIT [0m of getDamage method of Weapon class
-[[35mLOG[0m]: [34mENTER[0m in takeDamage method of Golem class
-[[35mLOG[0m]: [34mENTER[0m in takeDamage method of Monster class
-[[35mLOG[0m]: [31mEXIT [0m of takeDamage method of Monster class
-[[35mLOG[0m]: [31mEXIT [0m of takeDamage method of Golem class
-[[35mLOG[0m]: [31mEXIT [0m of theHeroAttacks method of MyController class AFTER the exit of getHealth method of Golem class
-[[35mLOG[0m]: [34mENTER[0m in getHealth method of Character class
-[[35mLOG[0m]: [31mEXIT [0m of getHealth method of Character class
-[[35mLOG[0m]: [34mENTER[0m in sendMessage method of MyView class
-[[32mAPP[0m]: The Hero attacks the Golem, and reduce it's health to 2 !
-[[35mLOG[0m]: [31mEXIT [0m of sendMessage method of MyView class
-[[35mLOG[0m]: [31mEXIT [0m of theHeroAttacks method of MyView class
-[[35mLOG[0m]: [34mENTER[0m in endTurn method of MyView class
-[[35mLOG[0m]: [34mENTER[0m in theGolemAttacks method of MyController class
-[[35mLOG[0m]: [34mENTER[0m in attack method of Monster class
-[[35mLOG[0m]: [31mEXIT [0m of attack method of Monster class
-[[35mLOG[0m]: [34mENTER[0m in takeDamage method of Hero class
-[[35mLOG[0m]: [31mEXIT [0m of takeDamage method of Hero class
-[[35mLOG[0m]: [31mEXIT [0m of theGolemAttacks method of MyController class AFTER the exit of getHealth method of Hero class
-[[35mLOG[0m]: [34mENTER[0m in getHealth method of Character class
-[[35mLOG[0m]: [31mEXIT [0m of getHealth method of Character class
-[[35mLOG[0m]: [34mENTER[0m in sendMessage method of MyView class
-[[32mAPP[0m]: The Golem attacks the Hero, and reduce he's health to 37 !
-[[35mLOG[0m]: [31mEXIT [0m of sendMessage method of MyView class
-[[35mLOG[0m]: [34mENTER[0m in theGolemRegenerates method of MyController class
-[[35mLOG[0m]: [34mENTER[0m in regenerate method of Golem class
-[[35mLOG[0m]: [31mEXIT [0m of regenerate method of Golem class
-[[35mLOG[0m]: [34mENTER[0m in sendMessage method of MyView class
-[[32mAPP[0m]: The Golem regenerates 1 health !
-[[35mLOG[0m]: [31mEXIT [0m of sendMessage method of MyView class
-[[35mLOG[0m]: [31mEXIT [0m of theGolemRegenerates method of MyController class
-[[35mLOG[0m]: [31mEXIT [0m of endTurn method of MyView class
-[[35mLOG[0m]: [34mENTER[0m in theHeroEquipsHaxe method of MyView class
-[[35mLOG[0m]: [34mENTER[0m in theHeroEquipsWeapon method of MyController class
-[[35mLOG[0m]: [31mEXIT [0m of theHeroEquipsWeapon method of MyController class AFTER the exit of theHeroEquipsHaxe method of MyController class
-[[35mLOG[0m]: [34mENTER[0m in theHeroEquipsHaxe method of MyController class
-[[35mLOG[0m]: [34mENTER[0m in Weapon constructor
-[[35mLOG[0m]: [31mEXIT [0m of Weapon constructor
-[[35mLOG[0m]: [34mENTER[0m in equipWeapon method of Hero class
-[[35mLOG[0m]: [31mEXIT [0m of equipWeapon method of Hero class
-[[35mLOG[0m]: [31mEXIT [0m of theHeroEquipsHaxe method of MyController class
-[[35mLOG[0m]: [34mENTER[0m in sendMessage method of MyView class
-[[32mAPP[0m]: The Hero equip a haxe wich deal 5 damages !
-[[35mLOG[0m]: [31mEXIT [0m of sendMessage method of MyView class
-[[35mLOG[0m]: [31mEXIT [0m of theHeroEquipsHaxe method of MyView class
-[[35mLOG[0m]: [34mENTER[0m in theHeroAttacks method of MyView class
-[[35mLOG[0m]: [34mENTER[0m in theHeroAttacks method of MyController class
-[[35mLOG[0m]: [34mENTER[0m in attack method of Hero class
-[[35mLOG[0m]: [31mEXIT [0m of attack method of Hero class
-[[35mLOG[0m]: [34mENTER[0m in getDamage method of Weapon class
-[[35mLOG[0m]: [31mEXIT [0m of getDamage method of Weapon class
-[[35mLOG[0m]: [34mENTER[0m in takeDamage method of Golem class
-[[35mLOG[0m]: [34mENTER[0m in takeDamage method of Monster class
-[[35mLOG[0m]: [31mEXIT [0m of takeDamage method of Monster class
-[[35mLOG[0m]: [31mEXIT [0m of takeDamage method of Golem class
-[[35mLOG[0m]: [31mEXIT [0m of theHeroAttacks method of MyController class AFTER the exit of getHealth method of Golem class
-[[35mLOG[0m]: [34mENTER[0m in getHealth method of Character class
-[[35mLOG[0m]: [31mEXIT [0m of getHealth method of Character class
-[[35mLOG[0m]: [34mENTER[0m in sendMessage method of MyView class
-[[32mAPP[0m]: The Hero attacks the Golem, and reduce it's health to 0 !
-[[35mLOG[0m]: [31mEXIT [0m of sendMessage method of MyView class
-[[35mLOG[0m]: [34mENTER[0m in victory method of MyView class
-[[35mLOG[0m]: [34mENTER[0m in getHeroName method of MyController class
-[[35mLOG[0m]: [31mEXIT [0m of getHeroName method of MyController class AFTER the exit of getName method of Hero class
-[[35mLOG[0m]: [34mENTER[0m in getName method of Hero class
-[[35mLOG[0m]: [31mEXIT [0m of getName method of Hero class AFTER the exit of getName method of Character class
-[[35mLOG[0m]: [34mENTER[0m in getName method of Character class
-[[35mLOG[0m]: [31mEXIT [0m of getName method of Character class
-[[35mLOG[0m]: [34mENTER[0m in sendMessage method of MyView class
+[[35mLOG[0m]: [34mENTER[0m App main method
+[[35mLOG[0m]: [34mENTER[0m App constructor
+[[35mLOG[0m]: [31mEXIT [0m App constructor
+[[35mLOG[0m]: [34mENTER[0m App init method
+[[35mLOG[0m]: [34mENTER[0m Character constructor
+[[35mLOG[0m]: [31mEXIT [0m Character constructor
+[[35mLOG[0m]: [34mENTER[0m Monster constructor BEFORE Character constructor
+[[35mLOG[0m]: [31mEXIT [0m Monster constructor
+[[35mLOG[0m]: [34mENTER[0m Golem constructor BEFORE Monster constructor
+[[35mLOG[0m]: [31mEXIT [0m Golem constructor
+[[35mLOG[0m]: [34mENTER[0m MyController constructor
+[[35mLOG[0m]: [31mEXIT [0m MyController constructor
+[[35mLOG[0m]: [31mEXIT [0m App init method
+[[35mLOG[0m]: [34mENTER[0m App sendMessage method
+[[32mAPP[0m]: O no, an horrible Golem is in the forest !! We need a hero !
+[[35mLOG[0m]: [31mEXIT [0m App sendMessage method
+[[35mLOG[0m]: [34mENTER[0m MyController setHero method
+[[35mLOG[0m]: [34mENTER[0m MyController newHero method
+[[35mLOG[0m]: [31mEXIT [0m MyController newHero method AFTER Hero constructor
+[[35mLOG[0m]: [34mENTER[0m Character constructor
+[[35mLOG[0m]: [31mEXIT [0m Character constructor
+[[35mLOG[0m]: [34mENTER[0m Hero constructor BEFORE Character constructor
+[[35mLOG[0m]: [31mEXIT [0m Hero constructor
+[[35mLOG[0m]: [31mEXIT [0m MyController setHero method
+[[35mLOG[0m]: [34mENTER[0m App sendMessage method
+[[32mAPP[0m]: The Hero Arthur comes !
+[[35mLOG[0m]: [31mEXIT [0m App sendMessage method
+[[35mLOG[0m]: [34mENTER[0m MyController theHeroEquipsSword method
+[[35mLOG[0m]: [34mENTER[0m Weapon constructor
+[[35mLOG[0m]: [31mEXIT [0m Weapon constructor
+[[35mLOG[0m]: [34mENTER[0m Hero equipWeapon method
+[[35mLOG[0m]: [31mEXIT [0m Hero equipWeapon method
+[[35mLOG[0m]: [31mEXIT [0m MyController theHeroEquipsSword method
+[[35mLOG[0m]: [34mENTER[0m App sendMessage method
+[[32mAPP[0m]: The Hero equip is sword !
+[[35mLOG[0m]: [31mEXIT [0m App sendMessage method
+[[35mLOG[0m]: [34mENTER[0m MyController theHeroAttacks method
+[[35mLOG[0m]: [34mENTER[0m Golem getName method
+[[35mLOG[0m]: [31mEXIT [0m Golem getName method
+[[32mAPP[0m]: Golem
+[[35mLOG[0m]: [34mENTER[0m Monster takeDamage method
+[[35mLOG[0m]: [31mEXIT [0m Monster takeDamage method
+[[35mLOG[0m]: [34mENTER[0m Golem takeDamage method
+[[35mLOG[0m]: [31mEXIT [0m Golem takeDamage method
+[[35mLOG[0m]: [34mENTER[0m Character getHealth method
+[[35mLOG[0m]: [31mEXIT [0m Character getHealth method
+[[32mAPP[0m]: 0
+[[35mLOG[0m]: [31mEXIT [0m MyController theHeroAttacks method
+[[35mLOG[0m]: [34mENTER[0m App sendMessage method
+[[32mAPP[0m]: The Hero deal a huge blow to the Golem !
+[[35mLOG[0m]: [31mEXIT [0m App sendMessage method
+[[35mLOG[0m]: [34mENTER[0m MyController getHeroName method
+[[35mLOG[0m]: [31mEXIT [0m MyController getHeroName method AFTER Hero getName method
+[[35mLOG[0m]: [34mENTER[0m Hero getName method
+[[35mLOG[0m]: [31mEXIT [0m Hero getName method AFTER Character getName method
+[[35mLOG[0m]: [34mENTER[0m Character getName method
+[[35mLOG[0m]: [31mEXIT [0m Character getName method
+[[35mLOG[0m]: [34mENTER[0m App sendMessage method
 [[32mAPP[0m]: I'm the hero of Dragrice and my name is Arthur, i killed this Golem !!!
-[[35mLOG[0m]: [31mEXIT [0m of sendMessage method of MyView class
-[[35mLOG[0m]: [31mEXIT [0m of victory method of MyView class
-[[35mLOG[0m]: [31mEXIT [0m of theHeroAttacks method of MyView class
-[[35mLOG[0m]: [31mEXIT [0m of main method of App class
+[[35mLOG[0m]: [31mEXIT [0m App sendMessage method
+[[35mLOG[0m]: [31mEXIT [0m App main method

@@ -8,6 +8,11 @@ import org.example.controller.MyController;
 
 public class App {
     
+    public App() {
+                                        Logs.sendLog(0, "App constructor");
+                                        Logs.sendLog(1, "App constructor");
+    }
+
     // This method initializes the view and controller, and sets up the relationships between them.
     public MyController init() {
                                         Logs.sendLog(0, "App init method");
