@@ -1,0 +1,66 @@
+ENTER main
+    ENTER App constructor
+    EXIT App constructor
+
+    ENTER App init method
+        ENTER Golem constructor
+            ENTER Monster constructor
+                Enter Character constructor
+                EXIT Character constructor
+            EXIT Monster constructor
+        EXIT Golem constructor
+        ENTER MyController constructor
+        EXIT MyController constructor
+    EXIT App init method
+
+    ENTER App sendMessage method
+    EXIT App sendMessage method
+
+    ENTER MyController setHero method
+        ENTER MyController newHero method
+            ENTER Hero constructor
+                ENTER Character constructor
+                EXIT Character constructor
+            EXIT Hero constructor
+        EXIT MyController newHero method
+    EXIT MyController setHero method
+
+    ENTER App sendMessage method
+    EXIT App sendMessage method
+
+    ENTER MyController theHeroEquipsSword method
+        ENTER Weapon constructor
+        EXIT Weapon constructor
+        ENTER Hero equipWeapon constructor
+        EXIT Hero equipWeapon constructor
+    EXIT MyController theHeroEquipsSword method
+
+    ENTER App sendMessage method
+    EXIT App sendMessage method
+
+    ENTER MyController theHeroAttacks method
+        ENTER Golem getName method
+        EXIT Golem getName method
+
+        ENTER Monster takeDamage method
+        EXIT Monster takeDamage method
+
+        ENTER Golem takeDamage method
+        EXIT Golem takeDamage method
+
+        ENTER Character getHealth method
+        EXIT Character getHealth method
+    EXIT MyController theHeroAttacks method
+
+    ENTER MyView sendMessage method
+    EXIT MyView sendMessage method
+
+    ENTER MyController getHeroName method
+        ENTER Hero getName method
+            ENTER Character getName method
+            EXIT Character getName method
+        EXIT Hero getName method
+    EXIT MyController getHeroName method
+    ENTER APP sendMessage method
+    EXIT APP sendMessage method
+EXIT main

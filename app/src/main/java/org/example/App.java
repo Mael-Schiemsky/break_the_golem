@@ -5,30 +5,34 @@ package org.example;
 
 import org.example.Model.character.Golem;
 import org.example.controller.MyController;
-import org.example.view.MyView;
 
 public class App {
 
     // This method initializes the view and controller, and sets up the relationships between them.
-    public MyView init() {
-        MyView view = new MyView();
+    public MyController init() {
         MyController controller = new MyController(new Golem());
+        return controller;
+    }
 
-        view.setController(controller);
-        controller.setView(view);
-
-        return view;
+    public void sendMessage(String message) {
+        System.out.println("[" + "\u001B[32m" + "APP" + "\u001B[0m" + "]: " + message);
     }
     
     public static void main(String[] args) {
         App app = new App();
-        MyView view = app.init();
+        MyController controller = app.init();
 
-        view.init();
+        app.sendMessage("O no, an horrible Golem is in the forest !! We need a hero !");
 
-        view.aNewHeroCome();
-        view.theHeroEquipsSword();
-        view.theHeroAttacks();
-        view.victory();
+        controller.setHero();
+        app.sendMessage("The Hero Arthur comes !");
+
+        controller.theHeroEquipsSword();
+        app.sendMessage("The Hero equip is sword !");
+        
+        controller.theHeroAttacks();
+        app.sendMessage("The Hero deal a huge blow to the Golem !");
+
+        app.sendMessage(controller.getHeroName() + ", i killed this Golem !!!");
     }
 }

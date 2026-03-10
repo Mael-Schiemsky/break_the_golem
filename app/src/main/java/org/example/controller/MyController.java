@@ -3,19 +3,13 @@ package org.example.controller;
 import org.example.Model.character.Golem;
 import org.example.Model.character.Hero;
 import org.example.Model.weapon.Weapon;
-import org.example.view.MyView;
 
 public class MyController {
-    private MyView view;
     private Golem golem;
     private Hero hero;
 
     public MyController(Golem golem) {
         this.golem = golem;
-    }
-
-    public void setView(MyView view) {
-        this.view = view;
     }
 
     public void setHero() {
@@ -31,12 +25,12 @@ public class MyController {
     }
 
     public void theHeroAttacks() {
-        view.sendMessage(golem.getName());
+        System.out.println("[" + "\u001B[32m" + "APP" + "\u001B[0m" + "]: " + golem.getName());
 
         golem.takeDamage(5);
         golem.takeDamage();
 
-        view.sendMessage("" + golem.getHealth());
+        System.out.println("[" + "\u001B[32m" + "APP" + "\u001B[0m" + "]: " + golem.getHealth());
     }
 
     public String getHeroName() {
