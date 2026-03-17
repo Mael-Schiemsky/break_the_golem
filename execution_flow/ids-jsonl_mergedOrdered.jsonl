@@ -1,0 +1,66 @@
+{"e":"enter","method":"org.example.App#main([Ljava/lang/String;)V"}
+    {"e":"enter","method":"org.example.App#<init>()V"}
+    {"e":"exit"}
+
+    {"e":"enter","method":"org.example.App#init()Lorg/example/controller/MyController;"}
+        {"e":"enter","method":"org.example.Model.character.Golem#<init>()V"}
+            {"e":"enter","method":"org.example.Model.character.Monster#<init>(Ljava/lang/String;I)V"}
+                {"e":"enter","method":"org.example.Model.character.Character#<init>(Ljava/lang/String;I)V"}
+                {"e":"exit"}
+            {"e":"exit"}
+        {"e":"exit"}
+        {"e":"enter","method":"org.example.controller.MyController#<init>(Lorg/example/Model/character/Golem;)V"}
+        {"e":"exit"}
+    {"e":"exit"}
+
+    {"e":"enter","method":"org.example.App#sendMessage(Ljava/lang/String;)V"}
+    {"e":"exit"}
+
+    {"e":"enter","method":"org.example.controller.MyController#setHero()V"}
+        {"e":"enter","method":"org.example.controller.MyController#newHero()Lorg/example/Model/character/Hero;"}
+            {"e":"enter","method":"org.example.Model.character.Hero#<init>(Ljava/lang/String;ILjava/lang/String;)V"}
+                {"e":"enter","method":"org.example.Model.character.Character#<init>(Ljava/lang/String;I)V"}
+                {"e":"exit"}
+            {"e":"exit"}
+        {"e":"exit"}
+    {"e":"exit"}
+
+    {"e":"enter","method":"org.example.App#sendMessage(Ljava/lang/String;)V"}
+    {"e":"exit"}
+
+    {"e":"enter","method":"org.example.controller.MyController#theHeroEquipsSword()V"}
+        {"e":"enter","method":"org.example.Model.weapon.Weapon#<init>(Ljava/lang/String;I)V"}
+        {"e":"exit"}
+        {"e":"enter","method":"org.example.Model.character.Hero#equipWeapon(Lorg/example/Model/weapon/Weapon;)V"}
+        {"e":"exit"}
+    {"e":"exit"}
+
+    {"e":"enter","method":"org.example.App#sendMessage(Ljava/lang/String;)V"}
+    {"e":"exit"}
+
+    {"e":"enter","method":"org.example.controller.MyController#theHeroAttacks()V"}
+        {"e":"enter","method":"org.example.Model.character.Golem#getName()Ljava/lang/String;"}
+        {"e":"exit"}
+
+        {"e":"enter","method":"org.example.Model.character.Monster#takeDamage(I)V"}
+        {"e":"exit"}
+        
+        {"e":"enter","method":"org.example.Model.character.Golem#takeDamage()V"}
+        {"e":"exit"}
+        
+        {"e":"enter","method":"org.example.Model.character.Character#getHealth()I"}
+        {"e":"exit"}
+    {"e":"exit"}
+
+    {"e":"enter","method":"org.example.App#sendMessage(Ljava/lang/String;)V"}
+    {"e":"exit"}
+
+    {"e":"enter","method":"org.example.controller.MyController#getHeroName()Ljava/lang/String;"}
+        {"e":"enter","method":"org.example.Model.character.Hero#getName()Ljava/lang/String;"}
+            {"e":"enter","method":"org.example.Model.character.Character#getName()Ljava/lang/String;"}
+            {"e":"exit"}
+        {"e":"exit"}
+    {"e":"exit"}
+    {"e":"enter","method":"org.example.App#sendMessage(Ljava/lang/String;)V"}
+    {"e":"exit"}
+{"e":"exit"}
